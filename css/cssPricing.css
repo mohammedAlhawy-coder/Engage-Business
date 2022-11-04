@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  
+  img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  ul{
+      list-style: none;
+  }
+
+
+  .s1{
+      padding: 60px ;
+  }
+
+  .s1 .text h2{
+    font-size: 2.3em;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
+
+
+
+  .s1 .text h4{
+      padding: 20px 0px;
+    font-size: 1.2em;
+    font-family: inherit;
+    font-weight: 500;
+    color: #303030;
+
+
+
+}
+.s1 .text p{
+    color: #303030c2;
+line-height: 1.8;
+}
+
+
+
+
+.s2{
+    padding: 60px;
+    background-color: #f8f8f9;
+    margin-top: 60px;
+
+}
+.s2 .start{
+text-align: center;
+padding: 20px 0px;
+}
+
+.s2 .start h2{
+    padding: 20px 0px;
+font-family: inherit;
+
+}
+
+.s2 .start p{
+    padding: 10px 0px;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+
+.s2 .p{
+    background-color: #fff;
+    border-radius:10px ;
+    text-align: center;
+    height: 500px;
+}
+.s2 .p .lord{
+    border-bottom:1px solid rgba(0, 0, 0, 0.247) ;
+    padding: 20px 0px;
+}
+
+
+
+.s2 .p .lord .a{
+padding: 5px;
+font-size: 1.5em;
+font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+
+.s2 .p .lord h2{
+    font-size: 3.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+
+.s2 .p .lord-s{
+    background-color: #4274b7;
+    color: #fff;
+
+}
+
+
+.s2 .p .text ul{
+    padding: 20px 0px;
+    
+}
+
+.s2 .p .text ul i{
+    padding: 10px 0px;
+    line-height: 1.5;
+
+}
+
+.s2 .p .text .btn{
+    margin-top:15px ;
+    background-color: #ddd;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+
+.s2 .p .text .btn-s{
+    margin-top:15px ;
+    background-color: #4274b7;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.s2 .p .text .btn:hover{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: #fff;
+
+}
+
+
+.s3{
+    padding: 60px;
+    background-image: url(../);
+}

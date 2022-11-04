@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.521);
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  z-index: 99999999999;
+}
+header ul li a{
+  font-size: 1.3em;
+color: #fff;
+padding: 10px 30px !important;
+transition: all 0.5s;
+
+}
+
+header nav  a:hover{
+text-decoration: none;
+color: #fff;
+}
+
+
+
+
+
+
+.s1 {
+  position: relative;
+  top: 60px;
+  padding: 60px;
+  margin-bottom: 60px;
+}
+
+.s1 .img {
+  padding: 30px 10px;
+}
+
+.s1 .item {
+  margin-top: 60px;
+  padding-left: 30px;
+}
+.s1 .item h2 {
+  padding-top: 60px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.s1 .item .p1 {
+  line-height: 1.8;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.s2 {
+  padding: 60px;
+  background-color: #f8f8f9;
+}
+
+.s2 .text {
+  padding: 20px 0px;
+}
+
+.s2 .text h3 {
+  padding: 20px 0px;
+  color: #303030;
+  line-height: 1.38em;
+}
+
+.s2 .text .p1 {
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.699);
+  margin-bottom: 20px;
+}
+
+.s2 .text .p2 {
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.699);
+  margin-bottom: 20px;
+}
+
+.s3 {
+  padding: 60px;
+  text-align: center;
+}
+
+.s3 .p {
+  padding-top: 20px;
+}
+.s3 .p h2 {
+  color: #303030;
+  line-height: 1.38em;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.s3 .p p {
+  color: rgba(0, 0, 0, 0.562);
+  font-size: 1.2em;
+  padding: 20px 0px;
+}
+
+.s3 .p .icon {
+  background-image: url("../img/Coaching.jpg");
+  width: 800px;
+  height: 400px;
+  background-size: cover;
+  margin: auto;
+  border-radius: 20px;
+  position: relative;
+}
+
+.s3 .p .icon i {
+  color: #fff;
+  font-size: 4em;
+
+  position: absolute;
+  top: 180px;
+  left: 360px;
+
+  background-color: transparent;
+  border-radius: 35px;
+
+  transition: all 0.3s;
+}
+
+.s3 .p .icon:hover i {
+  background-color: #fff;
+  color: black;
+}
+
+.s4 {
+  padding: 60px;
+  background-color: #f8f8f9;
+}
+.s4 .start {
+  padding: 40px 0px;
+  width: 250px;
+  margin: auto;
+  text-align: center;
+}
+
+.s4 .start h3 {
+  font-size: 2em;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.s4 .start p {
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.733);
+}
+
+.s4 .p {
+  padding: 20px 0px;
+}
+
+.s4 .p h4 {
+  padding: 20px 0px;
+}
+
+.s4 .p p {
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.s5 {
+  padding: 60px;
+  background-image: url("../img/business-main.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.s5 .p {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #4274b7;
+  opacity: 0.9;
+}
+
+.s5 .p .text {
+  text-align: center;
+  padding: 60px;
+}
+
+.s5 .p .text h2 {
+  padding: 30px 0px;
+  color: #fff;
+  font-size: 2.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.4em;
+}
+
+.s5 .p .text p {
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.788);
+  padding-bottom: 20px;
+}
+.s5 .p .text .btn {
+  width: 150px;
+  height: 60px;
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.s5 .p .text .btn:hover {
+  background-color: #fff;
+  color: black;
+  border: none;
+}
+
+.s6 {
+  padding: 60px;
+  background-color: #162231;
+}
+
+.s6 .item {
+  line-height: 2.4;
+}
+
+.s6 .item h3 {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.s6 .item p {
+  color: #58606b;
+}
+
+.s6 .item li {
+  color: #58606b;
+}
+
+.s6 .item-lord {
+  background-image: url(../img/contact-details-map.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
